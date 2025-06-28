@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using NavigationMenu.Pages;
 
 namespace NavigationMenu
 {
@@ -23,6 +24,26 @@ namespace NavigationMenu
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void PageContent_Loaded(object sender, RoutedEventArgs e)
+        {
+            PageContent.Navigate(new Page1());
+        }
+
+        private void RadioButtonPage1_Click(object sender, RoutedEventArgs e)
+        {
+            PageContent.Navigate(new Page1());
+        }
+
+        private void RadioButtonPage2_Click(object sender, RoutedEventArgs e)
+        {
+            PageContent.Navigate(new Page2());
+        }
+
+        private void RadioButtonPage3_Click(object sender, RoutedEventArgs e)
+        {
+            PageContent.Navigate(new Page3());
         }
     }
 }

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\App.xaml
-4-1105890554
+6-830025685
 
 9-1583944675
 13-38814620
-MainWindow.xaml;Pages\Page1.xaml;Pages\Page2.xaml;Pages\Page3.xaml;
+MainWindow.xaml;Pages\Page1.xaml;Pages\Page2.xaml;Pages\Page3.xaml;Styles\MenuRadioButtonStyle.xaml;Styles\PageStyle.xaml;
 
 True
 

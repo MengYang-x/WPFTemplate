@@ -6,16 +6,32 @@
         xmlns:local="clr-namespace:NavigationMenu"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid ShowGridLines="True">
+        Background="#f3f3f3"
+        Title="MainWindow" Height="650" Width="1000">
+    <Grid ShowGridLines="False">
         <!--界面布局：分2列-->
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="130"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <!--界面布局：导航按钮-->
-        
+        <Border Grid.Column="0" Margin="0" Background="White" CornerRadius="5">
+            <StackPanel>
+                <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
+                             GroupName="NavMenu" 
+                             IsChecked="True"
+                             Content="Page1" Click="RadioButtonPage1_Click"/>
+                <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
+                             GroupName="NavMenu" 
+                             Content="Page2" Click="RadioButtonPage2_Click"/>
+                <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
+                             GroupName="NavMenu" 
+                             Content="Page3" Click="RadioButtonPage3_Click"/>
+            </StackPanel>
+        </Border>
         <!--：界面布局：导航界面-->
-        <Frame Grid.Column="1" x:Name="PagesNavigation" NavigationUIVisibility="Hidden"/>
+        <Border Grid.Column="1" Margin="5,0" Background="Transparent">
+            <Frame x:Name="PageContent" NavigationUIVisibility="Hidden" Loaded="PageContent_Loaded"/>
+        </Border>
     </Grid>
 </Window>

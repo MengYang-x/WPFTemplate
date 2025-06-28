@@ -13,3 +13,12 @@ E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\NavigationMenu
 E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\NavigationMenu.csproj.CoreCompileInputs.cache
 E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\NavigationMenu.exe
 E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\NavigationMenu.pdb
+E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\Pages\Page1.g.cs
+E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\Pages\Page2.g.cs
+E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\Pages\Page3.g.cs
+E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\Pages\Page1.baml
+E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\Pages\Page2.baml
+E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\Pages\Page3.baml
+E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\Styles\PageStyle.baml
+E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\App.baml
+E:\012.github\WPFTemplate\NavigationMenu\NavigationMenu\obj\Debug\Styles\MenuRadioButtonStyle.baml
